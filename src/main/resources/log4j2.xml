@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration packages="com.fedex.framework.logging.log4j2">
+	<Properties>
+		<Property name="VARLOG" />
+	</Properties>
+
+	<Appenders>
+		<RollingRandomAccessFile name="defaultAppender" fileName="/DelDirTree.log" filePattern="/DelDirTree.log.%i">
+			<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss,SSS 'GMT'Z} [%t] %-5p %m%n" />
+			<Policies>
+				<SizeBasedTriggeringPolicy size="1 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="2" />
+		</RollingRandomAccessFile>
+	</Appenders>
+
+	<Loggers>
+		<Root level="INFO">
+			<AppenderRef ref="defaultAppender"/>
+		</Root>
+	</Loggers>
+</Configuration>
