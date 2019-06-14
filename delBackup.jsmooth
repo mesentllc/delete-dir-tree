@@ -7,16 +7,18 @@
 <JVMSearchPath>exepath</JVMSearchPath>
 <JVMSearchPath>jview</JVMSearchPath>
 <arguments></arguments>
-<currentDirectory>${EXECUTABLEPATH}</currentDirectory>
+<bundledJVMPath>C:\Program Files\Java\jre1.8.0_211</bundledJVMPath>
+<classPath>target\delete-dir-tree-1.0.0.jar</classPath>
+<currentDirectory>D:\Projects\delete-dir-tree\ddt.exe\${EXECUTABLEPATH}</currentDirectory>
 <embeddedJar>true</embeddedJar>
-<executableName>delBackip.exe</executableName>
+<executableName>ddt.exe</executableName>
 <iconLocation>Delete.png</iconLocation>
 <initialMemoryHeap>-1</initialMemoryHeap>
 <jarLocation>target\delete-dir-tree-1.0.0.jar</jarLocation>
-<mainClassName>com.mesentllc.utilities.DelBackup</mainClassName>
+<mainClassName>com.mesentllc.utilities.DelDirTree</mainClassName>
 <maximumMemoryHeap>-1</maximumMemoryHeap>
-<maximumVersion>1.7</maximumVersion>
-<minimumVersion>1.7</minimumVersion>
+<maximumVersion>1.8</maximumVersion>
+<minimumVersion>1.8</minimumVersion>
 <skeletonName>Console Wrapper</skeletonName>
 <skeletonProperties>
 <key>Message</key>
